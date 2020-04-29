@@ -15,8 +15,12 @@ recognition.addEventListener('result', evt => {
         .join('');
     
         p.textContent = transcript;
-    console.log(transcript);
+        if(evt.results[0].isFinal){
+            p.document.createElement('p');
+            words.appendChild(p);
+        }
 });
 
-recognition.start();
+
 recognition.addEventListener('end', recognition.start);
+recognition.start();
