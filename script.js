@@ -14,10 +14,10 @@ recognition.addEventListener('result', evt => {
         .map(result => result.transcript)
         .join('');
     
-        p.textContent = transcript;
+        para.textContent = transcript;
         if(evt.results[0].isFinal){
-            p.document.createElement('p');
-            words.appendChild(p);
+            para = document.createElement('p');
+            words.appendChild(para);
         }
 });
 
