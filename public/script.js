@@ -11,10 +11,10 @@ async function getWeather() {
     let iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
     list.innerHTML += `<li>City: ${data.name}</li>`;
     list.innerHTML += `<li>Temperature: ${data.main.temp}°C</li>`;
-    list.innerHTML += `<li>Weather: ${data.weather[0].main}<img src=${iconurl} alt='weather icon'></li>`;
     list.innerHTML += `<li>Wind Speed: ${data.wind.speed} m/s</li>`;
     list.innerHTML += `<li>Humidity: ${data.main.humidity} %</li>`;
-}
+    list.innerHTML += `<li>Weather: ${data.weather[0].main} <img src=${iconurl} alt='weather icon'></li>`;
+  }
 
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
