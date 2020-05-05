@@ -15,4 +15,4 @@ We also made use of the [OpenWeatherMap API](https://openweathermap.org) to fulf
 
 
 ## Liscence
-[MIT](https://github.com/danieldcaesar/speech-recognition/blob/master/LISCENCE.txt)
+[MIT](LICENSE)
