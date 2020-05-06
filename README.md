@@ -1,9 +1,9 @@
-# speech-recognition
+# weather-service
 ## Description
-This is a simple web service that uses the SpeechRecognition interface of the Web Speech API.
+This is a simple web service that uses the SpeechRecognition interface of the Web Speech API in addition to the [Geolocation API](https://w3c.github.io/geolocation-api/).
 We also made use of the [OpenWeatherMap API](https://openweathermap.org) to fulfil the 3rd party API requirement.
 
-[Application URL](https://danieldcaesar.github.io/speech-recognition/public)
+[Application URL](https://danieldcaesar.github.io/weather-service/public/)
 
 
 
