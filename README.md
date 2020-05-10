@@ -8,10 +8,10 @@ We also made use of the [OpenWeatherMap API](https://openweathermap.org) to fulf
 
 
 ## Contributors
-* [Jonathan Charles](https://github.com/boydingo) 816020890
+* Jonathan Charles 816020890
 * Jordan Valentine 816022348
-* Justin Dixon
-* [Daniel Caesar](https://github.com/danieldcaesar) 816023385
+* Justin Dixon 816019310
+* Daniel Caesar 816023385
 
 
 ## Liscence
